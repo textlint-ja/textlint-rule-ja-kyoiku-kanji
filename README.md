@@ -1,0 +1,55 @@
+# textlint-rule-ja-kyoiku-kanji
+
+教育漢字であることをチェックするtextlintルール
+
+- [別表　学年別漢字配当表：文部科学省](https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/syo/koku/001.htm)
+
+```
+1:1  error    教育漢字ではない漢字「兎」が含まれています。  ja-kyoiku-kanji
+```
+
+## Install
+
+Install with [npm](https://www.npmjs.com/):
+
+    npm install textlint-rule-ja-kyoiku-kanji
+
+## Usage
+
+Via `.textlintrc`(Recommended)
+
+```json
+{
+    "rules": {
+        "ja-kyoiku-kanji": true
+    }
+}
+```
+
+Via CLI
+
+```
+textlint --rule ja-kyoiku-kanji README.md
+```
+
+### Build
+
+Builds source codes for publish to the `lib` folder.
+You can write ES2015+ source codes in `src/` folder.
+
+    npm run build
+
+### Tests
+
+Run test code in `test` folder.
+Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tester).
+
+    npm test
+
+## Disclaimer
+
+Please see [DISCLAIMER.md](https://github.com/hata6502/textlint-rule-ja-kyoiku-kanji/blob/master/DISCLAIMER.md).
+
+## License
+
+MIT © Tomoyuki Hata
