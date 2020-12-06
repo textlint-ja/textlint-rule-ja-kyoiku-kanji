@@ -26,6 +26,23 @@ Via `.textlintrc`(Recommended)
 }
 ```
 
+with [TextlintRuleJaKyoikuKanjiOptions](https://github.com/hata6502/textlint-rule-ja-kyoiku-kanji/blob/master/src/index.ts)
+
+```json
+{
+    "rules": {
+        "ja-kyoiku-kanji": {
+            "allowElementary1stKanjis": true,
+            "allowElementary2ndKanjis": true,
+            "allowElementary3rdKanjis": true,
+            "allowElementary4thKanjis": false,
+            "allowElementary5thKanjis": false,
+            "allowElementary6thKanjis": false,
+        }
+    }
+}
+```
+
 Via CLI
 
 ```
