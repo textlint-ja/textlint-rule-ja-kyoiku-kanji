@@ -1,17 +1,21 @@
 {
   "name": "textlint-rule-ja-kyoiku-kanji",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "教育漢字であることをチェックするtextlintルール",
   "keywords": [
     "textlintrule"
   ],
-  "homepage": "https://github.com/hata6502/textlint-rule-ja-kyoiku-kanji#readme",
+  "homepage": "https://github.com/textlint-ja/textlint-rule-ja-kyoiku-kanji#readme",
   "bugs": {
-    "url": "https://github.com/hata6502/textlint-rule-ja-kyoiku-kanji/issues"
+    "url": "https://github.com/textlint-ja/textlint-rule-ja-kyoiku-kanji/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hata6502/textlint-rule-ja-kyoiku-kanji.git"
+    "url": "git+https://github.com/textlint-ja/textlint-rule-ja-kyoiku-kanji.git"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/hata6502"
   },
   "license": "MIT",
   "author": "Tomoyuki Hata <hato6502@gmail.com> (https://github.com/hata6502)",
@@ -25,7 +29,6 @@
   ],
   "scripts": {
     "build": "textlint-scripts build",
-    "generate-disclaimer": "yarn licenses generate-disclaimer --ignore-platform > DISCLAIMER.md",
     "prepublish": "yarn run --if-present build",
     "test": "textlint-scripts test",
     "watch": "textlint-scripts build --watch"

@@ -26,7 +26,7 @@ Via `.textlintrc`(Recommended)
 }
 ```
 
-with [TextlintRuleJaKyoikuKanjiOptions](https://github.com/hata6502/textlint-rule-ja-kyoiku-kanji/blob/master/src/index.ts)
+with [TextlintRuleJaKyoikuKanjiOptions](https://github.com/textlint-ja/textlint-rule-ja-kyoiku-kanji/blob/master/src/index.ts)
 
 ```json
 {
@@ -62,10 +62,6 @@ Run test code in `test` folder.
 Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tester).
 
     npm test
-
-## Disclaimer
-
-Please see [DISCLAIMER.md](https://github.com/hata6502/textlint-rule-ja-kyoiku-kanji/blob/master/DISCLAIMER.md).
 
 ## License
 
